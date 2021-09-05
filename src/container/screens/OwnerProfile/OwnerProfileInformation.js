@@ -49,7 +49,11 @@ const OwnerProfileInformation = ({navigation}) => {
             We would love to know more about you, your just as important to us
             as your dog!
           </Text>
-          <CustomTextInput label="Do you have a nickname?" value={nickName} onChangeText={(text)=>setNickName(text)}/>
+          <CustomTextInput
+            label="Do you have a nickname?"
+            value={nickName}
+            onChangeText={text => setNickName(text)}
+          />
           <Text style={styles.title}>When were you born?</Text>
           <View style={styles.input}>
             <View style={styles.dateView}>

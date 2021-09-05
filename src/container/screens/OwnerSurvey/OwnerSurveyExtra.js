@@ -40,7 +40,7 @@ const OwnerSurveyExtra = ({navigation}) => {
     navigation.goBack();
   };
   const gotoNext = () => {
-    navigation.navigate('OwnerSurveyIntro');
+    navigation.navigate('OwnerPreferences');
   };
   return (
     <SafeAreaView style={styles.container}>

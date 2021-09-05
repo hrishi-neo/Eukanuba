@@ -28,7 +28,7 @@ const OwnerSurveyIntro = ({navigation}) => {
       };
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView>
+      <ScrollView bounces={false}>
         <View>
           <Image source={require('../../../assets/images/Logo_Ribbon.png')} />
          
